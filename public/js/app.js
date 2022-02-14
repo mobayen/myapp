@@ -20204,7 +20204,10 @@ var render = function () {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "flex flex-col basis-1/3 flex-grow flex-shrink" },
+    {
+      staticClass:
+        "flex flex-col basis-1/3 cursor-pointer rounded duration-300 hover:shadow-2xl hover:shadow-black/50 transition-shadow ease-linear",
+    },
     [
       _c("div", {}, [
         _c("div", { staticClass: "relative" }, [

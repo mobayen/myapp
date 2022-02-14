@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col basis-1/3 flex-grow flex-shrink">
+  <div class="flex flex-col basis-1/3 cursor-pointer rounded duration-300 hover:shadow-2xl hover:shadow-black/50 transition-shadow ease-linear">
     <div class="">
       <div class="relative">
         <div class="">
